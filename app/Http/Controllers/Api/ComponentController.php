@@ -108,13 +108,13 @@ class ComponentController extends AbstractApiController
         try {
             $this->dispatch(new UpdateComponentCommand(
                 $component,
-                Binput::get('name'),
-                Binput::get('description'),
-                Binput::get('status'),
-                Binput::get('link'),
-                Binput::get('order'),
-                Binput::get('group_id'),
-                (bool) Binput::get('enabled', true)
+                Binput::get('name', $component->name),
+                Binput::get('description', $component->description),
+                Binput::get('status', $component->status),
+                Binput::get('link', $component->link),
+                Binput::get('order', $component->order),
+                Binput::get('group_id', $component->group_id),
+                (bool) Binput::get('enabled', $component->enabled)
             ));
         } catch (Exception $e) {
             throw new BadRequestHttpException();
