@@ -1,5 +1,4 @@
 body.login {
-    background: linear-gradient(rgba($cachet-icons, 0.2), rgba($cachet-icons, 0.3)), $cachet-green;
 
     .form-bg {
         padding:20px;
@@ -16,6 +15,7 @@ body.login {
 
     .logo {
         margin-bottom: 10px;
+        display: none;
     }
 
     p {
@@ -39,14 +39,16 @@ body.login {
             transition: background-color 0.5s ease;
 
             &.btn-trans {
-                background-color: transparent;
-                border: 1px solid white;
-                border-radius: 4px;
-                color: white;
+                background-color: white;
+                border-radius: 3px;
+                border: 1px solid $figshare-border-color;
+                color: $figshare-pink-color;
+
 
                 &:hover {
-                    background-color: white;
-                    color: $cachet-green;
+                    color: #fff;
+                    background-color: $figshare-pink-color;
+                    border: 1px solid $figshare-pink-color;
                 }
             }
         }
