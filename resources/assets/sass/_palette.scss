@@ -1,7 +1,7 @@
 // Theme colours.
 $cachet-base-light: #fff;
 $cachet-base-medium: #f0f3f4;
-$cachet-base-dark: #333;
+$cachet-base-dark: #464646;
 
 $cachet-primary: #7ED321;
 $cachet-secondary: #6DB81C;
@@ -9,20 +9,20 @@ $cachet-secondary: #6DB81C;
 $cachet-link: #7ed321;
 $cachet-link-hover: #01579b;
 
-$cachet-gray-light: #e8e8e8;
-$cachet-gray: #999;
-$cachet-gray-darker: #666;
+$cachet-gray-light: #f5f5f5;
+$cachet-gray: #ddd;
+$cachet-gray-darker: #bbb;
 
 $cachet-icons: #5e5e5e;
 
 // Statuses
-$cachet-green: $cachet-primary;
+$cachet-green: #86bd00;
 $cachet-dark-green: darken($cachet-green, 10%);
 
-$cachet-blue: #3498db;
+$cachet-blue: #6cdaee;
 $cachet-dark-blue: darken($cachet-blue, 10%);
 
-$cachet-red: #ff6f6f;
+$cachet-red: #f00;
 $cachet-dark-red: darken($cachet-red, 10%);
 
 $cachet-teal: #0dccc0;

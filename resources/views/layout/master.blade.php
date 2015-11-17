@@ -67,15 +67,13 @@
     </script>
     <script src="{{ elixir('dist/js/all.js') }}"></script>
 </head>
-<body class="status-page @yield('bodyClass')">
+<body class="status-page">
     @yield('outer-content')
-
-    @include('partials.banner')
-
-    <div class="container">
+    @include('partials.header')
+    <div class="main-content-wrap">
+        <div class="container">
         @yield('content')
+        </div>
     </div>
-
-    @include('partials.footer')
 </body>
 </html>

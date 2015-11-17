@@ -32,21 +32,25 @@ p, strong { color: {{ $theme_text_color }} !important; }
 .alert {
     background-color: {{ $theme_yellows }};
     border-color: {{ color_darken($theme_yellows, -0.1) }};
+    border: 0;
     color: {{ color_contrast($theme_yellows) }};
 }
 .alert.alert-success {
     background-color: {{ $theme_greens }};
     border-color: {{ color_darken($theme_greens, -0.1) }};
+    border: 0;
     color: {{ color_contrast($theme_greens) }};
 }
 .alert.alert-info {
     background-color: {{ $theme_blues }};
     border-color: {{ color_darken($theme_blues, -0.1) }};
+    border: 0;
     color: {{ color_contrast($theme_blues) }};
 }
 .alert.alert-danger {
     background-color: {{ $theme_reds }};
     border-color: {{ color_darken($theme_reds, -0.1) }};
+    border: 0;
     color: {{ color_contrast($theme_reds) }};
 }
 
@@ -104,11 +108,11 @@ p, strong { color: {{ $theme_text_color }} !important; }
 }
 .incident {
     background-color: {{ $theme_background_fills }};
-    border-color: {{ color_darken($theme_background_fills, -0.1) }};
+    border-color: #ddd;
 }
 .status-icon {
     background-color: {{ $theme_background_fills }};
-    border-color: {{ color_darken($theme_background_fills, -0.1) }};
+    border-color: #ddd;
 }
 .panel.panel-message:before {
     border-left-color: {{ $theme_background_fills }} !important;

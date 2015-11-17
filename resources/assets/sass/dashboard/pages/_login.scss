@@ -11,7 +11,9 @@ body.login {
     }
 
     .logo {
-        margin-bottom: 30px;
+        margin-bottom: 10px;
+        display: none;
+    }
 
         img {
             margin: 0 auto;
@@ -32,14 +34,16 @@ body.login {
             transition: background-color 0.5s ease;
 
             &.btn-trans {
-                background-color: transparent;
-                border: 1px solid white;
-                border-radius: 4px;
-                color: white;
+                background-color: white;
+                border-radius: 3px;
+                border: 1px solid $figshare-border-color;
+                color: $figshare-pink-color;
+
 
                 &:hover {
-                    background-color: white;
-                    color: $cachet-green;
+                    color: #fff;
+                    background-color: $figshare-pink-color;
+                    border: 1px solid $figshare-pink-color;
                 }
             }
         }
