@@ -30,28 +30,32 @@ p, strong { color: {{ $theme_text_color }} !important; }
  * Alert overrides.
  */
 .alert {
-    background-color: {{ $theme_yellows }};
+    /*background-color: {{ $theme_yellows }};*/
+    background-color: transparent;
+    color: #464646;
     border-color: {{ color_darken($theme_yellows, -0.1) }};
-    border: 0;
-    color: {{ color_contrast($theme_yellows) }};
+    /*color: {{ color_contrast($theme_yellows) }};*/
 }
 .alert.alert-success {
-    background-color: {{ $theme_greens }};
+    /*background-color: {{ $theme_greens }};*/
+    background-color: transparent;
+    color: #464646;
     border-color: {{ color_darken($theme_greens, -0.1) }};
-    border: 0;
-    color: {{ color_contrast($theme_greens) }};
+    /*color: {{ color_contrast($theme_greens) }};*/
 }
 .alert.alert-info {
-    background-color: {{ $theme_blues }};
+    /*background-color: {{ $theme_blues }};*/
+    background-color: transparent;
+    color: #464646;
     border-color: {{ color_darken($theme_blues, -0.1) }};
-    border: 0;
-    color: {{ color_contrast($theme_blues) }};
+    /*color: {{ color_contrast($theme_blues) }};*/
 }
 .alert.alert-danger {
-    background-color: {{ $theme_reds }};
+    /*background-color: {{ $theme_reds }};*/
+    background-color: transparent;
+    color: #464646;
     border-color: {{ color_darken($theme_reds, -0.1) }};
-    border: 0;
-    color: {{ color_contrast($theme_reds) }};
+    /*color: {{ color_contrast($theme_reds) }};*/
 }
 
 /**
