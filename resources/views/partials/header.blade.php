@@ -3,6 +3,6 @@
     <a class="logo-wrap" href="//figshare.com">
       <img src="/img/figshare-logo.png" />
     </a>
-    <a class="back-to" href="//figshare.com">← Back to figshare</a>
+    <a class="back-to" href="//figshare.com">Back to figshare</a>
   </div>
 </header>
