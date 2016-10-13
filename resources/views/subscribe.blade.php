@@ -22,9 +22,9 @@
 
     @include('dashboard.partials.errors')
 
-    <div class="panel panel-meassage">
+    <div class="panel panel-meassage subscribe-panel">
         <div class="panel-heading">
-            <strong>{{ trans('cachet.subscriber.subscribe') }}</strong>
+            <h1>{{ trans('cachet.subscriber.subscribe') }}</h1>
         </div>
         <div class="panel-body">
             <form action="{{ route('subscribe.subscribe', [], false) }}" method="post" class="form">

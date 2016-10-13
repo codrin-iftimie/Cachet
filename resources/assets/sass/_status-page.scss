@@ -4,6 +4,7 @@ body.status-page {
     font-size: 1.4em;
     font-weight: $base-font-weight;
     -webkit-font-smoothing: antialiased;
+    background-color: #fff!important;
 
     hr {
         margin-top: 10px;
@@ -490,6 +491,7 @@ body.status-page {
         border: 1px solid $figshare-border-color;
         background-color: #fff!important;
         border-radius: 3px;
+        color: $figshare-pink-color;
 
         &:hover {
             background-color: $figshare-pink-color!important;
@@ -498,7 +500,27 @@ body.status-page {
         }
     }
 
+    .links {
+        color: $figshare-pink-color!important;
+    }
+
     .section-status {
         margin-top: 21px;
+    }
+
+
+    .subscribe-panel {
+        .form-group {
+            display: inline-block;
+            width: 60%;
+            vertical-align: middle;
+            margin-bottom: 0;
+        }
+
+        .btn-success {
+            margin-left: 21px;
+            display: inline-block;
+            vertical-align: middle;
+        }
     }
 }

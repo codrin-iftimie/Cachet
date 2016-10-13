@@ -2,16 +2,17 @@
 
 @section('content')
 
-<div class="figshare-intro">
-    <h1>the state of fig<strong>share</strong></h1>
-    <h4>here you will find real-time information about the status of our services.</h4>
-</div>
-
 @if($subscribers_enabled)
 <div class="pull-right">
     <p><a class="btn btn-success btn-outline" href="{{ route('subscribe.subscribe') }}">{{ trans('cachet.subscriber.button') }}</a></p>
 </div>
 @endif
+
+<div class="figshare-intro">
+    <h1>the state of fig<strong>share</strong></h1>
+    <h4>here you will find real-time information about the status of our services.</h4>
+</div>
+
 
 <div class="clearfix"></div>
 
