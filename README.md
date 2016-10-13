@@ -1,3 +1,9 @@
+#Figsharians Notice
+
+Don't forget to `npm install` and `bower install`
+`gulp watch`  - watch
+`gulp --production` - minify
+
 # Cachet
 
 [![StyleCI](https://styleci.io/repos/26730195/shield)](https://styleci.io/repos/26730195/)
