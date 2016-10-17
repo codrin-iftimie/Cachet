@@ -325,16 +325,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.19.14",
+            "version": "3.19.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "2d0c88883dac2f8dd21825b51ef1f04e04073f8f"
+                "reference": "83e9522a0a1abce0b1a0c2971428a5bd975a212d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/2d0c88883dac2f8dd21825b51ef1f04e04073f8f",
-                "reference": "2d0c88883dac2f8dd21825b51ef1f04e04073f8f",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/83e9522a0a1abce0b1a0c2971428a5bd975a212d",
+                "reference": "83e9522a0a1abce0b1a0c2971428a5bd975a212d",
                 "shasum": ""
             },
             "require": {
@@ -401,7 +401,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2016-10-12 21:32:40"
+            "time": "2016-10-13 18:56:16"
         },
         {
             "name": "backup-manager/backup-manager",
@@ -3997,12 +3997,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "907366d05379156152bcb1862931a1687be71200"
+                "reference": "2f6d8ba6aaea4330e9c9d2d7eca19addb61c7183"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/907366d05379156152bcb1862931a1687be71200",
-                "reference": "907366d05379156152bcb1862931a1687be71200",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/2f6d8ba6aaea4330e9c9d2d7eca19addb61c7183",
+                "reference": "2f6d8ba6aaea4330e9c9d2d7eca19addb61c7183",
                 "shasum": ""
             },
             "require": {
@@ -4051,7 +4051,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-10-05 18:16:59"
+            "time": "2016-10-14 18:54:55"
         },
         {
             "name": "vlucas/phpdotenv",
