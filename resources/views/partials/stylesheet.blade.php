@@ -14,50 +14,38 @@ p, strong { color: {{ $theme_text_color }} !important; }
 .oranges { color: {{ $theme_oranges }} !important; }
 .metrics { color: {{ $theme_metrics }} !important; }
 .links { color: {{ $theme_links }} !important; }
-
 /**
  * Banner background
  */
 .app-banner {
     background-color: {{ $theme_banner_background_color }} !important;
 }
-
 .app-banner-padding {
     padding: {{ $theme_banner_padding }} !important;
 }
-
 /**
  * Alert overrides.
  */
 .alert {
-    /*background-color: {{ $theme_yellows }};*/
-    background-color: transparent;
-    color: #464646;
+    background-color: {{ $theme_yellows }};
     border-color: {{ color_darken($theme_yellows, -0.1) }};
-    /*color: {{ color_contrast($theme_yellows) }};*/
+    color: {{ color_contrast($theme_yellows) }};
 }
 .alert.alert-success {
-    /*background-color: {{ $theme_greens }};*/
-    background-color: transparent;
-    color: #464646;
+    background-color: {{ $theme_greens }};
     border-color: {{ color_darken($theme_greens, -0.1) }};
-    /*color: {{ color_contrast($theme_greens) }};*/
+    color: {{ color_contrast($theme_greens) }};
 }
 .alert.alert-info {
-    /*background-color: {{ $theme_blues }};*/
-    background-color: transparent;
-    color: #464646;
+    background-color: {{ $theme_blues }};
     border-color: {{ color_darken($theme_blues, -0.1) }};
-    /*color: {{ color_contrast($theme_blues) }};*/
+    color: {{ color_contrast($theme_blues) }};
 }
 .alert.alert-danger {
-    /*background-color: {{ $theme_reds }};*/
-    background-color: transparent;
-    color: #464646;
+    background-color: {{ $theme_reds }};
     border-color: {{ color_darken($theme_reds, -0.1) }};
-    /*color: {{ color_contrast($theme_reds) }};*/
+    color: {{ color_contrast($theme_reds) }};
 }
-
 /**
  * Button Overrides
  */
@@ -98,7 +86,6 @@ p, strong { color: {{ $theme_text_color }} !important; }
 .btn.btn-danger.links {
     color: {{ color_darken($theme_reds, -0.3) }};
 }
-
 /**
  * Background fills Overrides
  */
@@ -112,11 +99,11 @@ p, strong { color: {{ $theme_text_color }} !important; }
 }
 .incident {
     background-color: {{ $theme_background_fills }};
-    border-color: #ddd;
+    border-color: {{ color_darken($theme_background_fills, -0.1) }};
 }
 .status-icon {
     background-color: {{ $theme_background_fills }};
-    border-color: #ddd;
+    border-color: {{ color_darken($theme_background_fills, -0.1) }};
 }
 .panel.panel-message:before {
     border-left-color: {{ $theme_background_fills }} !important;

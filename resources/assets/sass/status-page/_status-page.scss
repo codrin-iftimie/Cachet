@@ -140,13 +140,15 @@ body.status-page {
         }
     }
 
-    .alert {
+    .section-status .alert {
         font-size: 1.8rem;
         font-weight: bold;
         border: 0!important;
         text-align: center;
         position: relative;
         padding-top: 90px;
+        background-color: transparent;
+        color: #464646;
 
         &:before {
             width: 70px;
@@ -579,5 +581,10 @@ body.status-page {
             display: inline-block;
             vertical-align: middle;
         }
+    }
+
+    .subscribe-button-wrap {
+        text-align: right;
+        margin-bottom: 14px;
     }
 }

@@ -24,7 +24,8 @@ class ModuleServiceProvider extends ServiceProvider
      */
     protected $modules = [
         'index' => [
-            ['group' => 'messages', 'partial' => 'partials.modules.messages'],
+            // Manually include this inside resources/views/index.blade.php
+            // ['group' => 'messages', 'partial' => 'partials.modules.messages'],
             ['group' => 'status', 'partial' => 'partials.modules.status'],
             ['group' => 'components', 'partial' => 'partials.modules.components'],
             ['group' => 'metrics', 'partial' => 'partials.modules.metrics'],

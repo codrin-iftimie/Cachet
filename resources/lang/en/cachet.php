@@ -1,5 +1,4 @@
 <?php
-
 /*
  * This file is part of Cachet.
  *
@@ -8,7 +7,6 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-
 return [
     // Components
     'components' => [
@@ -23,7 +21,6 @@ return [
             'other' => 'Other Components',
         ],
     ],
-
     // Incidents
     'incidents' => [
         'none'          => 'No incidents reported',
@@ -42,19 +39,16 @@ return [
             4 => 'Fixed',
         ],
     ],
-
     // Service Status
     'service' => [
         'good'  => '[0,1] System operational|[2,Inf] All systems are operational',
         'bad'   => '[0,1] The system is currently experiencing issues|[2,Inf] Some systems are experiencing issues',
         'major' => '[0,1] The service is experiencing a major outage|[2,Inf] Some systems are experiencing a major outage',
     ],
-
     'api' => [
         'regenerate' => 'Regenerate API Key',
         'revoke'     => 'Revoke API Key',
     ],
-
     // Metrics
     'metrics' => [
         'filter' => [
@@ -64,7 +58,6 @@ return [
             'monthly'   => 'Month',
         ],
     ],
-
     // Subscriber
     'subscriber' => [
         'subscribe' => 'Subscribe to get the updates',
@@ -101,7 +94,6 @@ return [
             ],
         ],
     ],
-
     'users' => [
         'email' => [
             'invite' => [
@@ -110,7 +102,6 @@ return [
             ],
         ],
     ],
-
     'signup' => [
         'title'    => 'Sign Up',
         'username' => 'Username',
@@ -119,11 +110,9 @@ return [
         'success'  => 'Your account has been created.',
         'failure'  => 'Something went wrong with the signup.',
     ],
-
     'system' => [
         'update' => 'There is a newer version of Cachet available. You can learn how to update <a href="https://docs.cachethq.io/docs/updating-cachet">here</a>!',
     ],
-
     // Modal
     'modal' => [
         'close'     => 'Close',
@@ -133,7 +122,6 @@ return [
             'button' => 'Subscribe',
         ],
     ],
-
     // Other
     'home'            => 'Home',
     'description'     => 'Stay up to date with the latest service updates from :app.',
@@ -143,5 +131,4 @@ return [
     'rss-feed'        => 'RSS',
     'atom-feed'       => 'Atom',
     'feed'            => 'Status Feed',
-
 ];
