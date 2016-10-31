@@ -55,19 +55,28 @@ body.status-page {
         .container {
             text-align: justify;
             line-height: 0;
+
             a {
+                display: inline-block;
+                vertical-align: middle;
+                color: $figshare-pink-color;
+            }
+
+            .container-right {
                 display: inline-block;
                 vertical-align: middle;
             }
 
-            .back-to {
+            a.back-to {
                 background-color: $figshare-pink-color;
                 color: #fff;
                 line-height: 24px;
                 padding: 0 7px;
                 border-radius: 3px;
+                margin-left: 21px;
             }
-            &:after {
+
+            &::after {
                 content: "";
                 display: inline-block;
                 height: 0;
